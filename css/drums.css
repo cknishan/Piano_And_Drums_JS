@@ -1,0 +1,62 @@
+html {
+    font-size: 10px; 
+    background: linear-gradient( rgba(26, 12, 12, 0.541),
+    rgba(13, 12, 12, 0.527)),
+    url("../img/drums_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    background-origin: border-box; 
+    background-attachment: fixed;
+}
+  
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+}
+  
+.keys {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+  
+.key {
+    border: .4rem solid rgb(255, 255, 255);
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    max-width: 9rem;
+    max-height: 9rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+  
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+  
+.key-letter {
+    display: block;
+    font-size: 4rem;
+}
+  
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+  
