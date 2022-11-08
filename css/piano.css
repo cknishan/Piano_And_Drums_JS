@@ -1,0 +1,54 @@
+html {
+    background: linear-gradient( rgba(0, 0, 0, 0.541),
+    rgba(13, 12, 12, 0.527)),
+    url("../img/piano.jpg");
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    background-origin: border-box; 
+    background-attachment: fixed;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+}
+
+.keys{
+    margin: 1.5rem .2rem .2rem .2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .key{
+    position: relative; 
+    float: left;
+    border: 1px solid black;
+    height: 100%;
+    width: 92px;
+    background-color: white;
+} */
+
+.key{
+    border: 1px solid black;
+    height: 100%;
+    width: 50px;
+    height: 180px;    
+    background-color: azure;
+    border-radius: 0px 0px 5px 5px;
+}
+
+/* the display flex dosen't allow the black key to overlapping between two white keys */
+/* if margin is less than width than there is a gap below the black key */
+.black-key{
+    height: 110px;
+    background-color: black;
+    width: 30px;
+    margin-left: -30px;
+}
+
+.e-note{
+    width: 44px;
+}
