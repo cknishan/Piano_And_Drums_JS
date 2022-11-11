@@ -8,4 +8,29 @@ html {
     background-origin: border-box; 
     background-attachment: fixed;
 }
+
+main{
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    border: 5px solid #ebe9e4;
+    border-radius: 50px;
+}
   
+.card_link{
+    width: 20vw;
+    min-width: 200px;
+    padding-bottom: 2rem;
+}
+
+.container img:hover{
+    border-color: #ffc600;
+}

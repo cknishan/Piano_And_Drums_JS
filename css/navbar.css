@@ -39,3 +39,8 @@ a:hover{
   border-bottom: #ffc600 5px;
   color: #ffc600;
 }
+
+.container{
+  max-width: 800px;
+  margin: auto;
+}
