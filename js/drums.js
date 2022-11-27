@@ -1,8 +1,9 @@
-"use strict"
+// "use strict"
+// Well, the "use strict" makes it unable to play the drums
 
 // removes the class of playing from the drum element
 // this function is called on the 'transitionend' eventListener
-removeTransition = (e) => {
+function removeTransition (e) {
   // if there's no 'transform' property return
   if (e.propertyName !== 'transform') return;
   // else remove the class from the element to return to previous state of the drum button
