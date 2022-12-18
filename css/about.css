@@ -8,4 +8,26 @@ html {
     background-origin: border-box; 
     background-attachment: fixed;
 }
-  
+
+main {
+    color: aliceblue;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.542);
+    padding: 1rem 2rem 3rem 2rem;
+    margin-top: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    color:aliceblue;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    z-index: 3;
+}
